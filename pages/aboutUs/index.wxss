@@ -1,0 +1,110 @@
+/* pages/aboutUs/index.wxss */
+.about_us {
+  width: 100%;
+  position: relative;
+}
+.about_us_title {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 110rpx;
+  text-align: center;
+  color: #959893;
+  font-size: 32rpx;
+  line-height: 52rpx;
+}
+.about_us_background {
+  width: 100%;
+}
+.about_desc {
+  position: relative;
+  padding: 40rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin: -100rpx 20rpx 0;
+}
+.about_desc_title {
+  font-size: 60rpx;
+  font-weight: 450;
+  line-height: 52rpx;
+}
+.about_desc_border {
+  width: 300rpx;
+  height: 6rpx;
+  background: #ce1060;
+  margin: 16rpx 0 32rpx;
+}
+
+.about_desc_content{
+  font-size: 29rpx;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.about_title {
+  margin: 80rpx 60rpx 0;
+}
+
+.about_title text {
+  font-size: 40rpx;
+  line-height: 52rpx;
+  font-weight: 400;
+}
+.about_list {
+  margin: 48rpx 60rpx 0;
+}
+
+.about_icon {
+  float: left;
+  width: 48rpx;
+  height: 48rpx;
+  padding: 16rpx;
+  background: #DDE1E6;
+  border-radius: 10rpx;
+  margin-right: 24rpx;
+}
+.about_icon image {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.about_cont {
+  float: left;
+}
+
+.about_cont_title {
+  color: #020304;
+  font-size: 30rpx;
+  line-height: 36rpx;
+  font-weight: 400;
+}
+.about_cont_content {
+  font-size: 28rpx;
+  line-height: 44rpx;
+}
+
+/* 添加缺失的联系信息样式 */
+.contact_info {
+  margin: 30rpx 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 20rpx;
+}
+
+.contact_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.contact_item image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+
+.contact_item text {
+  font-size: 28rpx;
+  color: #333;
+}
+

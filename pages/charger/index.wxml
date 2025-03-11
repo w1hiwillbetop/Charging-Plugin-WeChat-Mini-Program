@@ -1,0 +1,12 @@
+<!-- pages/charger/index.wxml -->
+<view class="container">
+  <view class="header">
+    <view class="title">第{{groupNumber}}组充电桩</view>
+  </view>
+  
+  <view class="image-container">
+    <image mode="widthFix" src="{{imagePath}}" bindtap="previewImage" bindlongpress="handleLongPress"></image>
+    <view class="tip">请长按，然后点击识别，即可跳转。</view>
+    <view class="back-btn" bindtap="goBack">返回</view>
+  </view>
+</view>

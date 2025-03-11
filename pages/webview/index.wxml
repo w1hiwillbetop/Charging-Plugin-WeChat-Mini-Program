@@ -1,0 +1,11 @@
+<block wx:if="{{!showError}}">
+  <web-view src="{{url}}"></web-view>
+</block>
+<block wx:else>
+  <view class="error-container">
+    <view class="error-icon">!</view>
+    <view class="error-title">页面加载失败</view>
+    <view class="error-message">{{errorMsg}}</view>
+    <button class="back-btn" bindtap="goBack">返回上一页</button>
+  </view>
+</block>

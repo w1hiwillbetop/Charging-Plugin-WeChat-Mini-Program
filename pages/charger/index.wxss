@@ -1,0 +1,56 @@
+.container {
+  padding: 20rpx;
+  background-color: #f6f6f6;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+  position: relative;
+  margin-bottom: 30rpx;
+}
+
+.back-btn {
+  display: block;
+  width: 120rpx;
+  margin: 20rpx auto 0;
+  background-color: #121d24;
+  color: white;
+  padding: 10rpx 20rpx;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.image-container {
+  background-color: white;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+
+image {
+  width: 100%;
+  border-radius: 8rpx;
+}
+
+.tip {
+  text-align: center;
+  color: #666;
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+  padding: 10rpx;
+  background-color: #f0f0f0;
+  border-radius: 8rpx;
+}

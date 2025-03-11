@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/aboutUs/index",
+    "pages/charger/index",
+    "pages/webview/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "充电小助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#030303",
+    "selectedColor": "#030303",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icons/index.png",
+        "selectedIconPath": "images/icons/index-active.png"
+      },
+      {
+        "pagePath": "pages/aboutUs/index",
+        "text": "联系我",
+        "iconPath": "images/icons/about.png",
+        "selectedIconPath": "images/icons/about-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于查找附近的充电桩"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "navigateToMiniProgramAppIdList": ["wx62fcba19b2c33f42", "wxe5f52902cf4de896", "wx2ea687f4258101d8"],
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}

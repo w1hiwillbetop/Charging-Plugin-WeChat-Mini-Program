@@ -1,0 +1,73 @@
+/* 设置图片宽度为100% */
+image {
+  width: 100%;
+}
+
+/* 标题样式 */
+.title {
+  text-align: center;
+  font-size: 36rpx;
+  background-color: rgba(18, 126, 126, 0.096);
+  border-radius: 20rpx;
+  font-weight: bold;
+  color: #000;
+  margin: 20rpx 0;
+  padding: 20rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+
+/* 为了更好地显示按钮区域 */
+.button-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20rpx;
+  padding: 20rpx;
+  background-color: rgba(182, 181, 180, 0.877);
+  border-radius: 10rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+  margin: 20rpx -20rpx; /* 使用负margin抵消container的padding */
+  width: calc(100% + 40rpx); /* 增加宽度以补偿负margin */
+}
+
+.button {
+  height: 100rpx;
+  text-align: center;
+  background-color: #121d24;
+  color: white;
+  padding: 20rpx;
+  border-radius: 30rpx;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.button-hover {
+  background-color: rgba(239, 239, 243, 0.918);
+  color: #121d24;
+  transform: scale(0.98);
+}
+
+.container {
+  padding: 20rpx;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  overflow: hidden; /* 防止负margin造成横向滚动 */
+}
+
+.sequence-image {
+  width: 100%;
+  margin: 20rpx 0;
+  border-radius: 10rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 768px) {
+  .button-group {
+    margin: 20rpx auto; /* 在大屏幕上保持居中 */
+    width: 100%; /* 重置宽度 */
+    max-width: 600rpx;
+  }
+}

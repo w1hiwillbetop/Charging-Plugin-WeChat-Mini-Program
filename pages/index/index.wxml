@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="title">一食堂门口充电桩标号</view>
+  <image class="sequence-image" mode="widthFix" src="../../images/shunxu.png"></image>
+
+  <view class="button-group">
+    <view 
+      class="button" 
+      wx:for="{{8}}" 
+      wx:key="index" 
+      bindtap="onButtonClick" 
+      data-group="{{index + 1}}"
+      hover-class="button-hover"
+      hover-stay-time="20"
+    >
+      第{{index + 1}}组充电桩
+    </view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+<view class="about_us">
+  <view class="about_us_title">???</view>
+  <image class="about_us_background" src="beijing.jpg" mode="aspectFill"></image>
+</view>
+<view class="about_desc">
+  <text class="about_desc_title">特别感谢：腾讯云-GPT</text>
+  <view class="about_desc_border"></view>
+  <rich-text class="about_desc_content">
+    <text>  某天去餐厅充电，停车后一个一个找，发现全都没桩，白跑一趟，思考了一下，小安畅充这个软件好像只能到了后扫码充电。<br />
+    原理十分简单：按顺序拍下充电桩照片，然后点击获取二维码，在宿舍，在教学楼，在任何地方，都能随时随地看到充电桩状况。<br />
+    为什么没开发自动识别？一我没有小安畅充充电桩状态的API，二是小程序环境相对封闭，一些云函数不容易编写。<br />
+    源码在我的github仓库中，需配合微信开发者平台使用，开源。<br />
+    因此有了这个插件，这边如果有同学可以收集四期充电桩的码，发给我，扩充。或者自己动手试试，我平时很忙，因此</text>
+  </rich-text>
+</view>
+
+  
+<view class="about_title">
+  <text>如何联系？</text>
+</view>  
+<view  class="about_list">
+  <view class="about_icon">
+    <image src="../../images/icons/email.png"></image>
+  </view>
+  <view class="about_cont">
+    <view class="about_cont_title">电子邮箱</view>
+    <view class="about_cont_content">w1hilovemusic1226@outlook.com</view>
+  </view>
+</view>
+<view  class="about_list">
+  <view class="about_icon">
+    <image src="../../images/icons/phone.png"></image>
+  </view>
+  <view class="about_cont">
+    <view class="about_cont_title">微信</view>
+    <view class="about_cont_content">Reichenbach1226</view>
+  </view>
+</view>
+
